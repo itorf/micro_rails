@@ -13,7 +13,7 @@ module Phase4
       session.store_session(res)
     end
 
-    # method exposing a `Session` object
+
     def session
       @session ||= Session.new(req)
     end
